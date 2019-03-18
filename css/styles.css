@@ -1,12 +1,14 @@
 @font-face
 {
    font-family: "HelveticaThin";
-   src: url(font\HelveticaLTStd-Light.otf);
+   src: url(font/HelveticaLTStd-Light.otf);
 }
+
+
 body{
   background: #33313b;
   color: #fdc57b;
-  font-family: "HelveticaThin";
+  font-family: "Century Gothic";
 }
 
 #main-container{
@@ -14,14 +16,18 @@ body{
 }
 
 .imgJacobo{
-  max-width: 100%;
+  display:block;
+  margin:auto;
+  text-align: center;
+  max-width: 80%;
 }
 
-.site-footer{
-  background-color: #62374e;
-  text-transform: uppercase;
-  font-size: 12px;
+.imgJacoboTel{
+  float: left;
+  margin: 8% 10px 10px 5px;
+  max-width: 90%;
 }
+
 
 .suscribe-box{
   background-color: white;
@@ -44,6 +50,7 @@ body{
   color: #007880;
 }
 .site-footer{
+  padding: 10px 0px 10px 0px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -52,6 +59,9 @@ body{
   background-color: #62374e;
   color: #fdc57b;
   text-align: center;
+}
+.site-footer>a:hover{
+  color: #000;
 }
 
 .animate
@@ -62,7 +72,7 @@ body{
 .action-button
 {
  position: center;
- padding: 6% 41%;
+ padding: 6% 40%;
         margin: 0px 10px 10px 0px;
  border-radius: 3px;
  font-family: 'Lato', sans-serif;
