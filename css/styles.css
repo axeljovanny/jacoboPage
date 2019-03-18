@@ -1,0 +1,100 @@
+@font-face
+{
+   font-family: "HelveticaThin";
+   src: url(font\HelveticaLTStd-Light.otf);
+}
+body{
+  background: #33313b;
+  color: #fdc57b;
+  font-family: "HelveticaThin";
+}
+
+#main-container{
+  margin: 30px auto;
+}
+
+.imgJacobo{
+  max-width: 100%;
+}
+
+.site-footer{
+  background-color: #62374e;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.suscribe-box{
+  background-color: white;
+  border: 1px solid #edeeee;
+  border-radius: 3px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.jacobogram{
+  text-align: center;
+  color: #007880;
+
+}
+
+.jacobobnt{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #007880;
+}
+.site-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: #62374e;
+  color: #fdc57b;
+  text-align: center;
+}
+
+.animate
+{
+ transition: all 0.1s;
+ -webkit-transition: all 0.1s;
+}
+.action-button
+{
+ position: center;
+ padding: 6% 41%;
+        margin: 0px 10px 10px 0px;
+ border-radius: 3px;
+ font-family: 'Lato', sans-serif;
+ font-size: 18px;
+ color: #FFF;
+ text-decoration: none; }
+.red
+{
+ background-color: #e74c3c;
+ border-bottom: 5px solid #c0392b;
+ text-shadow: 0px -2px #c0392b;
+}
+.action-button:active
+{
+ transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+ border-bottom: 1px solid;
+}
+.iconito{
+  width: 32px;
+  height: 32px;
+  margin: 10px 10px 10px 10px;
+}
+.iconeiros{
+  margin: 0px 10px 10px 0px;
+  text-align: center;
+}
+
+.morado{
+  background: #purple;
+}
+
+.naranja{
+  background: #orange;
+}
